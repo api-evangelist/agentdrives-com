@@ -64,5 +64,159 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentdrives-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentdrives.com/
+AgentDrives is an independent lab that evaluates how AI agents can access and use software. It provides open data on agent-driven interactions, tools, and APIs, offering a searchable directory of software products, detailed drive reports, and an MCP server for agents to discover suitable tools before signing up. The platform publishes pricing, data sets, and documentation to help developers understand agent capabilities and improve integration.
+
+**Areas:** AI · Agents · Lab · Software · Testing · Data
+
+## agentdrives-com on APIs.io
+
+Everything profiled for agentdrives-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentdrives-com/](https://apis.io/providers/agentdrives-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [agentdrives-com Accounts API](https://apis.io/apis/agentdrives-com/agentdrives-com-accounts-api/) — Sign in, API keys, agent accounts and your account
+- [agentdrives-com Claims API](https://apis.io/apis/agentdrives-com/agentdrives-com-claims-api/) — Claim and prove your product's domain
+- [agentdrives-com Directory API](https://apis.io/apis/agentdrives-com/agentdrives-com-directory-api/) — The products our agent drove: search, categories, capabilities, levels, the data explorer and the evidence
+- [agentdrives-com Follows API](https://apis.io/apis/agentdrives-com/agentdrives-com-follows-api/) — Hear when a tool's level changes: follows and the webhook
+- [agentdrives-com Newsletter API](https://apis.io/apis/agentdrives-com/agentdrives-com-newsletter-api/) — The monthly report by email
+- [agentdrives-com Orders API](https://apis.io/apis/agentdrives-com/agentdrives-com-orders-api/) — Order, pay and manage drives and plans
+- [agentdrives-com Pay over HTTP 402 API](https://apis.io/apis/agentdrives-com/agentdrives-com-pay-over-http-402-api/) — Pay for a drive or a call over HTTP 402 (x402 or MPP), prepaid credit and receipts
+- [agentdrives-com Support API](https://apis.io/apis/agentdrives-com/agentdrives-com-support-api/) — Questions, disputes and support cases
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Agentdrives Com Webhooks](https://apis.io/asyncapis/agentdrives-com/agentdrives-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentdrives Com Agentic Access](https://apis.io/agentic-access/agentdrives-com/agentdrives-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AuditFixes](https://apis.io/schemas/agentdrives-com/agentdrives-com-audit-fixes/)
+- [BotChecks](https://apis.io/schemas/agentdrives-com/agentdrives-com-bot-checks/)
+- [Order](https://apis.io/schemas/agentdrives-com/agentdrives-com-order/)
+- [PaymentMap](https://apis.io/schemas/agentdrives-com/agentdrives-com-payment-map/)
+- [TaskResult](https://apis.io/schemas/agentdrives-com/agentdrives-com-task-result/)
+- [Tool](https://apis.io/schemas/agentdrives-com/agentdrives-com-tool/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentdrives Com Context](https://apis.io/jsonld/agentdrives-com/agentdrives-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [agentdrives-com API Rules](https://apis.io/rules/agentdrives-com/agentdrives-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentdrives Com Authentication](https://apis.io/security/agentdrives-com/agentdrives-com-authentication/)
+- [Agentdrives Com Domain Security](https://apis.io/security/agentdrives-com/agentdrives-com-domain-security/)
+- [Agentdrives Com Vulnerability Disclosure](https://apis.io/security/agentdrives-com/agentdrives-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentdrives Com Scopes](https://apis.io/scopes/agentdrives-com/agentdrives-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentdrives Com Plans Pricing](https://apis.io/plans/agentdrives-com/agentdrives-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentdrives Com Rate Limits](https://apis.io/rate-limits/agentdrives-com/agentdrives-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentdrives.com/)
+- [Documentation](https://agentdrives.com/data)
+- [Getting started](https://agentdrives.com/index.md)
+- [API reference](https://agentdrives.com/openapi.json)
+- [Pricing](https://agentdrives.com/pricing)
+- [Sign up](https://agentdrives.com/api/agents/signup)
+- [Changelog](https://agentdrives.com/method/changelog)
+- [Blog](https://agentdrives.com/research)
+- [Security](https://agentdrives.com/security)
+- [Terms of service](https://agentdrives.com/legal/terms)
+- [Privacy policy](https://agentdrives.com/legal/privacy)
+- [GitHub](https://github.com/AgentDrives)
+
+## API Evangelist rating
+
+**Kin Score 68.2** — exemplar · rubric 0.26.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 68.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 73.2 |
+
+**Agent readiness 66.1** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentdrives-com/](https://apis.io/providers/agentdrives-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agentdrives-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentdrives-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
