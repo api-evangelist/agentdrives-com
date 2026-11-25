@@ -66,7 +66,7 @@
 
 AgentDrives is an independent lab that evaluates how AI agents can access and use software. It provides open data on agent-driven interactions, tools, and APIs, offering a searchable directory of software products, detailed drive reports, and an MCP server for agents to discover suitable tools before signing up. The platform publishes pricing, data sets, and documentation to help developers understand agent capabilities and improve integration.
 
-**Areas:** AI · Agents · Lab · Software · Testing · Data
+**Areas:** Artificial Intelligence · Agents · Lab · Software · Testing · Data
 
 ## agentdrives-com on APIs.io
 
@@ -93,20 +93,34 @@ Event-driven and webhook contracts.
 
 - [Agentdrives Com Webhooks](https://apis.io/asyncapis/agentdrives-com/agentdrives-com-webhooks/)
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentdrives-com-mcp.yml](https://apis.io/servers/agentdrives-com/agentdrives-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentdrives Com Agentic Access](https://apis.io/agentic-access/agentdrives-com/agentdrives-com-agentic-access/)
+- [agentdrives-com Agentic Access](https://apis.io/agentic-access/agentdrives-com/agentdrives-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (14)
 
 The data models the API reads and writes.
 
 - [AuditFixes](https://apis.io/schemas/agentdrives-com/agentdrives-com-audit-fixes/)
 - [BotChecks](https://apis.io/schemas/agentdrives-com/agentdrives-com-bot-checks/)
+- [Claim](https://apis.io/schemas/agentdrives-com/agentdrives-com-claim/)
+- [DirectoryPlace](https://apis.io/schemas/agentdrives-com/agentdrives-com-directory-place/)
+- [LegalStepRequest](https://apis.io/schemas/agentdrives-com/agentdrives-com-legal-step-request/)
+- [Methods](https://apis.io/schemas/agentdrives-com/agentdrives-com-methods/)
 - [Order](https://apis.io/schemas/agentdrives-com/agentdrives-com-order/)
 - [PaymentMap](https://apis.io/schemas/agentdrives-com/agentdrives-com-payment-map/)
+- [Recheck](https://apis.io/schemas/agentdrives-com/agentdrives-com-recheck/)
+- [ScanQueued](https://apis.io/schemas/agentdrives-com/agentdrives-com-scan-queued/)
+- [SupportAnswer](https://apis.io/schemas/agentdrives-com/agentdrives-com-support-answer/)
+- [SupportCase](https://apis.io/schemas/agentdrives-com/agentdrives-com-support-case/)
 - [TaskResult](https://apis.io/schemas/agentdrives-com/agentdrives-com-task-result/)
 - [Tool](https://apis.io/schemas/agentdrives-com/agentdrives-com-tool/)
 
@@ -115,6 +129,12 @@ The data models the API reads and writes.
 Linked-data contexts for the provider's vocabulary.
 
 - [Agentdrives Com Context](https://apis.io/jsonld/agentdrives-com/agentdrives-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [agentdrives-com Directory Api Certification Overlay](https://apis.io/overlays/agentdrives-com/agentdrives-com-directory-api-certification-overlay/)
 
 #### Governance rules (1)
 
@@ -126,27 +146,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentdrives Com Authentication](https://apis.io/security/agentdrives-com/agentdrives-com-authentication/)
-- [Agentdrives Com Domain Security](https://apis.io/security/agentdrives-com/agentdrives-com-domain-security/)
-- [Agentdrives Com Vulnerability Disclosure](https://apis.io/security/agentdrives-com/agentdrives-com-vulnerability-disclosure/)
+- [agentdrives-com Authentication](https://apis.io/security/agentdrives-com/agentdrives-com-authentication/)
+- [agentdrives-com Domain Security](https://apis.io/security/agentdrives-com/agentdrives-com-domain-security/)
+- [agentdrives-com Vulnerability Disclosure](https://apis.io/security/agentdrives-com/agentdrives-com-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentdrives Com Scopes](https://apis.io/scopes/agentdrives-com/agentdrives-com-scopes/)
+- [agentdrives-com Scopes](https://apis.io/scopes/agentdrives-com/agentdrives-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentdrives Com Plans Pricing](https://apis.io/plans/agentdrives-com/agentdrives-com-plans-pricing/)
+- [agentdrives-com Plans Pricing](https://apis.io/plans/agentdrives-com/agentdrives-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentdrives Com Rate Limits](https://apis.io/rate-limits/agentdrives-com/agentdrives-com-rate-limits/)
+- [agentdrives-com Rate Limits](https://apis.io/rate-limits/agentdrives-com/agentdrives-com-rate-limits/)
 
 ## Where to find this API
 
@@ -167,23 +187,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 68.2** — exemplar · rubric 0.26.0 · scored 2026-10-31
+**Kin Score 63.3** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.7 |
-| Contract quality | 68.8 |
-| Contract governance | 79.1 |
-| Operational transparency | 39.5 |
+| Discoverability | 83.3 |
+| Contract quality | 71.8 |
+| Contract governance | 22.0 |
+| Operational transparency | 35.7 |
 | Developer ergonomics | 58.8 |
-| Access clarity | 73.2 |
+| Access clarity | 76.6 |
 
-**Agent readiness 66.1** — agent-native
+**Agent readiness 62.5** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -191,10 +211,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
-| Event Surface Described | unknown |
+| Event Surface Described | yes |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | conformant |
 | Dry Run Mode | yes |
 | Delegated Identity | — |
@@ -204,6 +224,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
 
